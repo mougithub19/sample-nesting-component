@@ -12,4 +12,9 @@ export class AppComponent  {
   num2:number=200;
   num3:number=300;
   num4:number=400;
+  msg:string="";
+  showMessage(value:string):void{
+    this.msg=value;
+  }
+
 }
