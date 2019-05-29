@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-
+//Inner component
 @Component({
   selector: 'hello',
   template: `
@@ -8,7 +8,9 @@ import { Component, Input } from '@angular/core';
     <br/>
     2nd Number : {{num2}}
     <br/>
-    Total Number : {{num1}} + {{num2}}
+    Total Number : {{num1 + num2}}
+    <br/>
+    Total Number : {{num3 + num4}}
   </h1>`,
   styles: [`h1 { font-family: Lato; }`]
 })
@@ -16,4 +18,6 @@ export class HelloComponent  {
   @Input() name: string;
   @Input() num1: number;
   @Input() num2: number;
+  @Input() num3: number;
+  @Input() num4: number;
 }
