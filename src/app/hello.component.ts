@@ -8,8 +8,14 @@ import { Component, Input } from '@angular/core';
     <br/>
     2nd Number : {{num2}}
     <br/>
+    Eg. Interpolation
+    =============
+    <br/>
     Total Number : {{num1 + num2}}
     <br/>
+    Eg. Property Binding
+    ================
+     <br/>
     Total Number : {{num3 + num4}}
   </h1>`,
   styles: [`h1 { font-family: Lato; }`]
